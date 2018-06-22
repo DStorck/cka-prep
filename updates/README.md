@@ -1,3 +1,5 @@
+# [updating a deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#updating-a-deployment)
+
 ### Create a deployment running nginx version 1.12.2 that will run in 2 pods
  1. Scale this to 4 pods.
  2. Scale it back to 2 pods.
