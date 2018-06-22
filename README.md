@@ -1,6 +1,6 @@
 # CKA Prep
 
-Sample questions/answers and notes for the exam.  This repo is a colleection of my attemps to solve some of the problems listed. [here](https://docs.google.com/document/d/1AMVwvVabPoYt-o1k8Uo7UlmlfsjQKVHDhDyKP3QqbOM/edit).
+Sample questions/answers and notes for the exam.  This repo is a colleection of my attemps to solve some of the problems listed [here](https://docs.google.com/document/d/1AMVwvVabPoYt-o1k8Uo7UlmlfsjQKVHDhDyKP3QqbOM/edit).
 
 ### Helpful Links
 
