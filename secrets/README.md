@@ -1,6 +1,6 @@
 # [secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
 
-### create a secret with name `apple` , keypair `banana`=`cherry`
+### create a secret with name `apple` and keypair `banana`=`cherry`
 `$ kubectl create secret generic apple --from-literal=banana=cherry`
 
 ### create a pod named `secret-file` using the redis image which mounts secret `apple` at `/secrets`
@@ -40,5 +40,5 @@ spec:
           name: apple
           key: banana
 ```
-[Using secrets as files from a pod](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)
+[Using secrets as files from a pod](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)       
 [Using secrets as environment variables](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables)

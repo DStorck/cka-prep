@@ -15,7 +15,7 @@ scale it up
 `kubectl scale deployment nginx --replicas=4 --record `
 
 scale it back to 2     
-`kubectl scale deployment nginx --replicas=2 --record ``
+`kubectl scale deployment nginx --replicas=2 --record `
 
 upgrade to 1.13.8     
 `kubectl set image deployment nginx nginx=nginx:1.13.8 --record`
