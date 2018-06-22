@@ -1,9 +1,9 @@
-Create a deployment running nginx version 1.12.2 that will run in 2 pods
- a. Scale this to 4 pods.
- b. Scale it back to 2 pods.
- c. Upgrade this to 1.13.8 and record the update
- d. rollback to previous version
- e. show the rollout history
+### Create a deployment running nginx version 1.12.2 that will run in 2 pods
+ 1. Scale this to 4 pods.
+ 2. Scale it back to 2 pods.
+ 3. Upgrade this to 1.13.8 and record the update
+ 4. rollback to previous version
+ 5. show the rollout history
 
 
 create the deployment   
