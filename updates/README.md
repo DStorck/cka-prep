@@ -6,20 +6,20 @@ Create a deployment running nginx version 1.12.2 that will run in 2 pods
  e. show the rollout history
 
 
-create the deployment
+create the deployment   
 `kubectl run nginx --image=nginx:1.12.2 --replicas=2`
 
-scale it up
+scale it up    
 `kubectl scale deployment nginx --replicas=4 --record `
 
-scale it back to 2
+scale it back to 2     
 `kubectl scale deployment nginx --replicas=2 --record ``
 
-upgrade to 1.13.8
+upgrade to 1.13.8     
 `kubectl set image deployment nginx nginx=nginx:1.13.8 --record`
 
-rollback to previous version
+rollback to previous version     
 `kubectl rollout undo deployment nginx --record`
 
-check rollout history  
-` kubectl rollout history deployment nginx`
+check rollout history        
+`kubectl rollout history deployment nginx`

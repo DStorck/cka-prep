@@ -27,15 +27,15 @@ spec:
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: question34
+  name: helloP
 spec:
   completions: 20
   parallelism: 5
   template:
     spec:
       containers:
-      - name: question34
+      - name: helloP
         image: perl
-        command: ["echo",  "Hello Parallel World"]
+        command: ["echo",  "Hello parallel world"]
       restartPolicy: Never
 ```
