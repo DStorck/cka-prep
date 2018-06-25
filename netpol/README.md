@@ -2,8 +2,8 @@
 
 ### Create a network policy for an nginx pod such that only pods with the label access=granted can talk to it.
 
-First create nginx and expose it.
-`kubectl run nginx --image-nginx`
+First create nginx and expose it.      
+`kubectl run nginx --image-nginx`      
 `kubectl expose deployment nginx --port=80`
 
 Test access.
