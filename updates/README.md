@@ -29,4 +29,4 @@ check rollout history
 
 ### create a daemonset. change the update strategy to do a rolling update but delay each pod update by 30 seconds
 
-To set a daemonset to use the rolling update strategy, you need to configure the update strategy using the `spec.updateStrategy.type` field - set it to have the value RollingUpdate.  Then any change to spec.template or subfields will trigger the update. To affect the wait time between pod updates, change the spec.minReadySeconds, which determines how long a Pod must be “ready” before the rolling update proceeds to upgrade subsequent pods
+To set a daemonset to use the rolling update strategy, you need to configure the update strategy using the `spec.updateStrategy.type` field - set it to have the value RollingUpdate.  Then any change to `spec.template` or subfields will trigger the update. To affect the wait time between pod updates, change the `spec.minReadySeconds`, which determines how long a Pod must be “ready” before the rolling update proceeds to upgrade subsequent pods
