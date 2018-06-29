@@ -1,4 +1,4 @@
-## Create and expose a deployment named nginx-hooray. Use the utility nslookup to ensure that the service and pod are accessible via their respective DNS records.
+## Create and expose a deployment named nginx-hooray. Check accessibility of their dns records. 
 
 ### create deployment
 ```
@@ -21,3 +21,6 @@ Address 1: 10.152.183.134 kube-dns.kube-system.svc.cluster.local
 Name:      nginx-hooray
 Address 1: 10.152.183.173 nginx-hooray.default.svc.cluster.local
 ```
+
+Resources:
+https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/
