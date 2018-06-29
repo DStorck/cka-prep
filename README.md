@@ -11,3 +11,5 @@ Sample questions/answers and notes for the exam.  This repo is a colleection of 
 [List of Sample Questions](https://docs.google.com/document/d/1AMVwvVabPoYt-o1k8Uo7UlmlfsjQKVHDhDyKP3QqbOM/edit)
 
 [Kubernetes the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+
+[CKA Exam experience and useful tip](https://linuxacademy.com/community/posts/show/topic/25094-cka-exam-experience-and-some-useful-tips)
