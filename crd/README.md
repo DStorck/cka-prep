@@ -41,7 +41,8 @@ spec:
   image: my-delicious-taco
 ```
 
-```$ kubectl create -f taco-cr.yaml
+```
+$ kubectl create -f taco-cr.yaml
 taco.stable.example.com "my-new-taco-object" created
 ```
   
