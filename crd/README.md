@@ -1,3 +1,5 @@
+# [Custom Resources](https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/)
+
 ## Create a custom resource definition and display it in the API with curl
 
 #### create the crd 
@@ -108,5 +110,3 @@ $ curl http://localhost:8080/apis/stable.example.com/v1
     }
   ]
 ```
-
-[CRDs](https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/)

@@ -1,3 +1,5 @@
+# [Static pods](https://kubernetes.io/docs/tasks/administer-cluster/static-pod/#static-pod-creation) 
+
 ## Configure the kubelet systemd-managed service to launch pod with image nginx named turtle automatically. Put the spec files in the /etc/kubernetes/manifests directory on the node
 
 - ssh to the desired worker node

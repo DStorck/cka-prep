@@ -1,4 +1,6 @@
-## Create and expose a deployment named nginx-hooray. Check accessibility of their dns records. 
+# [dns](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/) 
+
+## Create and expose a deployment named nginx-hooray. Check accessibility of its dns records. 
 
 ### create deployment
 ```
@@ -21,6 +23,3 @@ Address 1: 10.152.183.134 kube-dns.kube-system.svc.cluster.local
 Name:      nginx-hooray
 Address 1: 10.152.183.173 nginx-hooray.default.svc.cluster.local
 ```
-
-Resources:
-https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/
