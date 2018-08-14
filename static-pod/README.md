@@ -23,4 +23,4 @@ $ systemctl restart kubelet.service
 
 ** note about clusters brought up with juju
 
-to have the same affect I had to navigate to `/etc/systemd/system/snap.kubelet.daemon.service` to find the WorkingDirectory ex `/var/snap/kubelet/411` , then go there to add the pod manifest path to the `args` file in that directory
+to have the same effect I had to navigate to `/etc/systemd/system/snap.kubelet.daemon.service` to find the WorkingDirectory ex `/var/snap/kubelet/411` , then go there to add the pod manifest path to the `args` file in that directory
