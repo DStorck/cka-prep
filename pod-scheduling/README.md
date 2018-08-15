@@ -37,7 +37,7 @@ spec:
           - key: security
             operator: In
             values:
-            - supersecert
+            - supersecret
         topologyKey: failure-domain.beta.kubernetes.io/zone
   ...
 ```
